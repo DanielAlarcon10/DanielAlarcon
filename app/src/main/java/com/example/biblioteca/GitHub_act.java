@@ -36,6 +36,8 @@ public class GitHub_act extends AppCompatActivity {
 
         Precios valor = new Precios();
 
+        valor.setPrecioFarenheith(7000);
+        valor.setPrecioRevival(22000);
 
         if(biblioteca.equals("Farenheith"))
         {
@@ -50,6 +52,16 @@ public class GitHub_act extends AppCompatActivity {
         if(biblioteca.equals("El Alquimista"))
         {
             tv.setText("el precio de El Alquimista es: " + valor.getPrecioAlquimista());
+        }
+
+        if(biblioteca.equals("El Poder"))
+        {
+            tv.setText("el precio de El Poder es: " + valor.getPrecioElPoder());
+        }
+
+        if(biblioteca.equals("Despertar"))
+        {
+            tv.setText("El precio de Despertar es: " + valor.getPrecioDespertar());
         }
 
     }

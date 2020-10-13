@@ -4,13 +4,17 @@ public class Precios
 {
    private int precioFarenheith;
    private int precioRevival;
-   private int precioAlquimista;
+   private int precioElAlquimista;
+   private int precioElPoder;
+   private int precioDespertar;
 
    public Precios()
    {
        precioFarenheith = 5000;
        precioRevival = 12000;
-       precioAlquimista = 45000;
+       precioElAlquimista = 45000;
+       precioElPoder = 88000;
+       precioDespertar = 156000;
    }
 
     public int getPrecioFarenheith()
@@ -25,7 +29,17 @@ public class Precios
 
     public int getPrecioAlquimista()
     {
-        return precioAlquimista;
+        return precioElAlquimista;
+    }
+
+    public int getPrecioElPoder()
+    {
+        return precioElPoder;
+    }
+
+    public int getPrecioDespertar()
+    {
+        return precioDespertar;
     }
 
     public void setPrecioFarenheith(int precioFarenheith)
@@ -38,9 +52,19 @@ public class Precios
         this.precioRevival = precioRevival;
     }
 
-    public void setPrecioAlquimista(int precioAlquimista)
+    public void setPrecioAlquimista(int precioElAlquimista)
     {
-        this.precioAlquimista = precioAlquimista;
+        this.precioElAlquimista = precioElAlquimista;
+    }
+
+    public void setPrecioElPoder(int precioElPoder)
+    {
+        this.precioElPoder = precioElPoder;
+    }
+
+    public void setPrecioDespertar(int precioDespertar)
+    {
+        this.precioDespertar = precioDespertar;
     }
 
 }
