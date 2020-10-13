@@ -37,6 +37,7 @@ public class GitHub_act extends AppCompatActivity {
         Precios valor = new Precios();
 
         valor.setPrecioFarenheith(7000);
+
         valor.setPrecioRevival(22000);
 
         if(biblioteca.equals("Farenheith"))
